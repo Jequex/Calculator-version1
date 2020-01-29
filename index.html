@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div id="typehere"></div>
+            <h1 id="answer"></h1>
+        </div>
+        <div class="keyboard">
+            <div class="numbers">
+                <div class="top_numbers">
+                        <button class="number" onclick="fnc()">C</button>
+                        <button class="number" onclick="fn7()">7</button>
+                        <button class="number" onclick="fn8()">8</button>
+                        <button class="number" onclick="fn9()">9</button>
+                </div>
+                <div class="middle_numbers">
+                        <button class="number" onclick="fn3()">3</button>
+                        <button class="number" onclick="fn4()">4</button>
+                        <button class="number" onclick="fn5()">5</button>
+                        <button class="number" onclick="fn6()">6</button>
+                </div>
+                <div class="bottom_numbers">
+                    <button class="number" onclick="fn0()">0</button>
+                    <button class="number" onclick="fn1()">1</button>
+                    <button class="number" onclick="fn2()">2</button>
+                    <button class="number" onclick="fn()">.</button>
+                </div>   
+            </div>
+            <div class="operators">
+                <div class="top-operator">
+                    <button class="operator" onclick="fnp()">+</button>
+                    <button class="operator" onclick="fnm()">-</button>
+                </div>
+                <div class="middle-operator">
+                    <button class="operator" onclick="fnd()">/</button>
+                    <button class="operator" onclick="fnt()">*</button>
+                </div>
+                <div class="bottom-operator">
+                    <button class="operator equals" onclick="fne()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
